@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://www.androidworld.it/images/2021/09/24/wallpaper-engine-hero_880x495.jpg);
+}
+#Nome{
+color: crimson;
+text-align: center;
+font-size:xx-large;
+}
+#MenuVerticale{
+    display: flex;
+    margin-left: 470pt;
+}
+a{
+    text-decoration:none; /*Toglie le sottolineature dai link.*/
+    color: green;
+}
+li{
+    margin:0px;
+    padding: 10px;
+    list-style-type:none;
+    display:block;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#presentazione{
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+}

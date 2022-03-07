@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+        <style>
+            form {
+                border-style:solid;
+                border-color:white;
+                background-color: black;
+                color: white;
+                border: solid;
+            }
+        </style>
+
+        <SCRIPT language="javascript">
+        function funzioneprodotto (){
+            var numero1=document.forms["DueNumeri"]["n1"].value;
+            var numero2=document.forms["DueNumeri"]["n2"].value;
+            risultato=numero1*numero2;
+            window.alert("Risultato: " + risultato);
+        }
+    </SCRIPT>
+
+    </head>
+    <body>
+        <h1>Inserie Dati</h1>
+        <form name="DueNumeri">
+            primo numero <input type="text" name="n1">
+            secondo numero <input type="text" name="n2">
+            <input type="button" value="calcola" onClick="funzioneprodotto()">
+        </form>
+    </body>
+</html>
